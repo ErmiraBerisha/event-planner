@@ -1,0 +1,52 @@
+h5 {
+  text-decoration: none;
+  font-family: brandon-grotesque;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 0.09em;
+  line-height: 2em;
+  text-transform: none;
+  color: #094962;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  height: 200px;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 200px;
+}
+.container .form-group {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: beige;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: 50px;
+  grid-template-rows: 40px 40px 100px 40px;
+  row-gap: 8px;
+  justify-items: center;
+  justify-content: center;
+}
+.container .form-group input {
+  width: 250px;
+  border-radius: 12px;
+  border: none;
+}
+.container .form-group textarea {
+  width: 250px;
+  border-radius: 12px;
+  border: none;
+}
+.container .form-group #submit {
+  background-color: #ed2856;
+  border: none;
+  padding: 13px;
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=contactus.css.map */

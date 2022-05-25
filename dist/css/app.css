@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Coustard&family=Dancing+Script:wght@400;500;600;700&family=Fredoka:wght@300&family=Poppins:wght@200;300;400&display=swap");
+body {
+  margin: 0;
+  background-color: #e1dada;
+  position: relative;
+}
+
+.menu-main-menu-container {
+  width: 100%;
+  height: 90px;
+}
+.menu-main-menu-container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 60%;
+  height: 90px;
+  margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+  .menu-main-menu-container ul {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 90px;
+    right: 0;
+    background-color: #cfd4d6;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+}
+.menu-main-menu-container ul a {
+  text-decoration: none;
+  font-family: brandon-grotesque;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.09em;
+  line-height: 2em;
+  text-transform: none;
+  color: #094962;
+}
+@media screen and (max-width: 768px) {
+  .menu-main-menu-container ul a {
+    padding: 8px 8px 8px 32px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    transition: 0.3s;
+    display: block;
+  }
+}
+
+.menu {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+}
+.menu #main {
+  opacity: 0;
+}
+@media screen and (max-width: 768px) {
+  .menu #main {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+}
+.menu .logo {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  align-items: center;
+}
+.menu .navbar__navbars {
+  opacity: 0;
+}
+@media screen and (max-width: 768px) {
+  .menu .navbar__navbars .closebtn {
+    position: absolute;
+    top: 80px;
+    right: -20px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #3b3535;
+    text-decoration: none;
+    z-index: 9;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  .menu .navbar__navbars .closebtn .active {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu .navbar__navbars .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu .navbar__navbars {
+    opacity: 1;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .front-page {
+    height: 100%;
+    transition: margin-left 0.5s;
+    padding: 20px;
+  }
+}
+.front-page .featured-image {
+  width: 100%;
+  height: 770px;
+}
+@media screen and (max-width: 768px) {
+  .front-page .featured-image {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.front-page-text {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 70px;
+  text-align: center;
+  text-decoration: none;
+  font-family: brandon-grotesque;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.09em;
+  line-height: 2em;
+  text-transform: none;
+  color: #094962;
+}
+.front-page-text h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: bold;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  line-height: 1em;
+}
+.front-page-text a {
+  background-color: #ed2856;
+  border: none;
+  padding: 13px;
+  color: white;
+  text-decoration: none;
+  width: 220px;
+  margin-left: 30px;
+}
+.front-page-text p {
+  padding-bottom: 40px;
+}
+
+.pt-3 {
+  text-decoration: none;
+  font-family: brandon-grotesque;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.09em;
+  line-height: 2em;
+  text-transform: none;
+  color: #094962;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background-color: beige;
+  display: flex;
+  width: 80%;
+  height: 400px;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .pt-3 {
+    font-size: 10px;
+    height: 300px;
+    width: 80%;
+    margin-left: 50px;
+  }
+}
+.pt-3 .pt-3-text {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+.pt-3 .pt-3-text h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: bold;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  line-height: 1em;
+}
+@media screen and (max-width: 768px) {
+  .pt-3 .pt-3-text h1 {
+    font-size: 20px;
+  }
+}
+.pt-3 .pt-3-text p {
+  padding-top: 0px;
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+.pt-3 .pt-3-text a {
+  background-color: #ed2856;
+  border: none;
+  padding: 13px;
+  color: white;
+  text-decoration: none;
+  width: 220px;
+}
+.pt-3 img {
+  width: 60%;
+  height: 100%;
+}
+
+.pt-4 {
+  text-decoration: none;
+  font-family: brandon-grotesque;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.09em;
+  line-height: 2em;
+  text-transform: none;
+  color: #094962;
+  margin-top: 20px;
+  width: 80%;
+  margin: auto;
+  height: 400px;
+  position: relative;
+  padding-bottom: 130px;
+}
+@media screen and (max-width: 768px) {
+  .pt-4 {
+    font-size: 10px;
+    height: 300px;
+    width: 80%;
+    margin-left: 50px;
+  }
+}
+.pt-4 .pt-4-text {
+  position: relative;
+  left: 505px;
+  top: 180px;
+  display: block;
+  background-color: #094962;
+  color: #e9eaec;
+  height: 350px;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 50%;
+  z-index: 1;
+}
+@media screen and (max-width: 768px) {
+  .pt-4 .pt-4-text {
+    height: 300px;
+    font-size: 10px;
+    position: relative;
+    left: 360px;
+    top: 50px;
+  }
+}
+.pt-4 .pt-4-text h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: bold;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  line-height: 1em;
+}
+@media screen and (max-width: 768px) {
+  .pt-4 .pt-4-text h1 {
+    font-size: 20px;
+  }
+}
+.pt-4 .pt-4-text p {
+  padding-bottom: 20px;
+}
+.pt-4 a {
+  background-color: #ed2856;
+  border: none;
+  padding: 13px;
+  color: white;
+  text-decoration: none;
+  width: 220px;
+}
+.pt-4 img {
+  position: relative;
+  left: 0px;
+  bottom: 280px;
+  width: 70%;
+  height: 100%;
+  display: block;
+}
+
+footer {
+  position: relative;
+  bottom: 0%;
+  top: 10px;
+  height: 300px;
+  margin-top: 180px;
+  margin-bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-family: brandon-grotesque;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.09em;
+  line-height: 2em;
+  text-transform: none;
+  color: #094962;
+}
+
+.footer-images {
+  height: 200px;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  .footer-images {
+    margin-right: 90px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-images img {
+    height: 100px;
+    width: 140px;
+  }
+}
+
+.footer-info {
+  height: 300px;
+  background-color: #094962;
+  text-decoration: none;
+  font-family: brandon-grotesque;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.09em;
+  line-height: 2em;
+  text-transform: none;
+  color: #094962;
+  color: white;
+}
+.footer-info p {
+  text-align: center;
+  padding-top: 30px;
+}
+.footer-info .contact-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #094962;
+  padding-top: 38px;
+}
+@media screen and (max-width: 768px) {
+  .footer-info .contact-info {
+    padding: 20px;
+    font-size: 15px;
+  }
+}
+.footer-info .contact-info ul {
+  list-style: none;
+  height: 120px;
+}
+.footer-info .contact-info ul .first-item {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=app.css.map */

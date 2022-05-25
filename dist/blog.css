@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Coustard&family=Dancing+Script:wght@400;500;600;700&family=Fredoka:wght@300&family=Poppins:wght@200;300;400&display=swap");
+.blog-main-img {
+  width: 100%;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .blog-main-img {
+    width: 100%;
+  }
+}
+.blog-main-img img {
+  width: 100%;
+  height: 440px;
+}
+@media screen and (max-width: 768px) {
+  .blog-main-img img {
+    width: 90%;
+    height: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+.blog-main-img .img-text {
+  position: absolute;
+  bottom: 100px;
+  left: 160px;
+  color: white !important;
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .blog-main-img .img-text {
+    font-size: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+  }
+}
+.blog-main-img .img-text h1 {
+  font-family: brandon-grotesque;
+  font-weight: 70;
+  font-style: oblique;
+  font-size: 50px;
+  letter-spacing: 0.09em;
+}
+@media screen and (max-width: 768px) {
+  .blog-main-img .img-text h1 {
+    font-size: 30px;
+  }
+}
+
+.card {
+  margin-left: 40px;
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 600px 600px;
+  column-gap: 30px;
+  row-gap: 30px;
+  justify-items: center;
+  width: 65%;
+}
+@media screen and (max-width: 768px) {
+  .card {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 400px 400px;
+    column-gap: 18px;
+    row-gap: 15px;
+    justify-items: start;
+    width: 80%;
+  }
+}
+.card .card-body {
+  width: 190px;
+  text-align: center;
+  text-decoration: none;
+  font-family: brandon-grotesque;
+  letter-spacing: 0.09em;
+  line-height: 2em;
+  text-transform: none;
+}
+@media screen and (max-width: 768px) {
+  .card .card-body {
+    font-size: 10px;
+    width: 150px;
+  }
+}
+.card .card-body h2 {
+  font-family: "Dancing Script", cursive;
+  color: #094962;
+  font-size: 20px;
+  font-weight: 1000;
+}
+@media screen and (max-width: 768px) {
+  .card .card-body h2 {
+    font-size: 13px;
+  }
+}
+.card .card-body p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  color: #6f7476;
+}
+.card .card-body a {
+  font-family: brandon-grotesque;
+  color: #094962;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.card .featured-image {
+  width: 190px;
+  height: 255px;
+}
+@media screen and (max-width: 768px) {
+  .card .featured-image {
+    width: 150px;
+    height: 190px;
+  }
+}
+
+.widget {
+  width: 200px;
+  height: 200px;
+  list-style-type: none;
+  position: absolute;
+  top: 600px;
+  right: 120px;
+}
+@media screen and (max-width: 768px) {
+  .widget {
+    width: 160px;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+    right: 20px;
+    font-size: 15px;
+  }
+}
+.widget h2 {
+  color: #ca277e;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+.widget .wp-widget-group__inner-blocks ul {
+  list-style-type: none;
+  font-family: "Dancing Script", cursive;
+  color: #ca277e;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 9px;
+}
+.widget .wp-widget-group__inner-blocks ul li {
+  text-decoration: underline;
+  margin-top: 5px;
+}
+@media screen and (max-width: 768px) {
+  .widget .wp-widget-group__inner-blocks ul li {
+    font-size: 13px;
+  }
+}
+.widget .wp-widget-group__inner-blocks .wp-container-2 .wp-block-group__inner-container ul {
+  list-style-type: none;
+}
+.widget .wp-widget-group__inner-blocks .wp-container-2 .wp-block-group__inner-container ul a {
+  color: #ca277e;
+}
+@media screen and (max-width: 768px) {
+  .widget .wp-widget-group__inner-blocks .wp-container-2 .wp-block-group__inner-container ul a {
+    font-size: 13px;
+  }
+}
+
+/*# sourceMappingURL=blog.css.map */

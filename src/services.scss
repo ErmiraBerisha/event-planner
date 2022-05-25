@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard&family=Dancing+Script:wght@400;500;600;700&family=Fredoka:wght@300&family=Poppins:wght@200;300;400&display=swap');
+
+@mixin font {
+    text-decoration: none;
+    font-family: brandon-grotesque;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: .09em;
+    line-height: 2em;
+    text-transform: none;
+    color: #094962; 
+    
+}
+
+.services-page{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0%;
+
+    .our-services{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        @include font;
+       
+    }
+    .services-img{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .weddings{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        @include font;
+    }
+    .weddings-img{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .birthdays{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        @include font;
+    }
+    .birthdays-img{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0px;
+        padding-bottom: 0%;
+    }
+}
+footer{
+    margin-top: 50px;
+}
+
