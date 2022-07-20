@@ -1,1 +1,1 @@
-This project is about event planning. It is created with a Wordpress theme from scratch and Tailwind css. You can see it live by clicking here: https://event-planner-website-6a70.site.strattic.io/category/blog/ 
+This project is about event planning. It is created with a Wordpress theme from scratch and Tailwind css. You can see it live by clicking here: https://event-planner-website-6a70.live.strattic.io/category/blog/
